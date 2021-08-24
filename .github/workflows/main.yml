@@ -1,35 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@LECHIFRE 
-LECHIFRE
-/
-W10_RDP
-forked from jvtct/W10_RDP
-0
-0183
-Code
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-W10_RDP/.github/workflows/coffin.yml
-@jvtct
-jvtct Update coffin.yml
-…
-Latest commit 0d9b247 on 23 Jun
- History
- 4 contributors
-@LAW-1337@c9ffin@Nocturnalcrakin@jvtct
-41 lines (37 sloc)  1.77 KB
-  
 name: RDP_COFFIN
 
 on: workflow_dispatch
