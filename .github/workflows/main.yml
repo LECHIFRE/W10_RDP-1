@@ -11,8 +11,8 @@ jobs:
     steps:
     - name: Download Ngrok & NSSM
       run: |
-        Invoke-WebRequest https://raw.githubusercontent.com/jvtct/W10_RDP/blob/main/Files/ngrok.exe -OutFile ngrok.exe
-        Invoke-WebRequest https://raw.githubusercontent.com/jvtct/W10_RDP/blob/main/Files/nssm.exe -OutFile nssm.exe
+        Invoke-WebRequest https://raw.githubusercontent.com/LECHIFRE/W10_RDP-1/blob/main/Files/ngrok.exe -OutFile ngrok.exe
+        Invoke-WebRequest https://raw.githubusercontent.com/LECHIFRE/W10_RDP-1/blob/main/Files/nssm.exe -OutFile nssm.exe
     - name: Copy NSSM & Ngrok to Windows Directory.
       run: | 
         copy nssm.exe C:\Windows\System32
@@ -39,4 +39,3 @@ jobs:
       run: cmd /c NGROK-CHECK.bat
     - name: All Done! Join my TeleGram Channel for more tricks.
       run: cmd /c loop.bat 
-Loading complete
